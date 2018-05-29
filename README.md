@@ -69,7 +69,7 @@ To compute PageRank scores I create external file contains a mapping from a key 
 
 ### Implementation Process
 
-* To implement the autocomplete functionality while using Solr, I used FuzzyLookupFactory feature of Lucene.
+* To implement the autocomplete functionality while using Solr, I used **FuzzyLookupFactory** feature of Lucene.
 * First, modify **solrconfig.xml** and add a search component. The field used to obtain the terms for suggestion. The **lookupImpl** parameter defines the algorithms used to look up terms in the suggest index.
 * Next, add a request handler to configure **default** parameters for serving suggestion requests.
 * Reload the Solr core.
