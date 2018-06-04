@@ -1,5 +1,5 @@
 <?php
-// include "simple_html_dom.php";
+include "simple_html_dom.php";
 
 function generateSnippet($url, $query)
 {
